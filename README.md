@@ -52,7 +52,7 @@ is a list of the modules we know of:
 
 ## Use it!
 Install Yjs, and its modules with [bower](http://bower.io/), or
-[npm](https://www.npmjs.org/package/yjs).
+[npm](https://www.npmjs.org/package/yjs), or use it directly from a [CDN](https://www.jsdelivr.com/package/npm/yjs).
 
 ### Bower
 ```
@@ -62,6 +62,19 @@ You only need to include the `y.js` file. Yjs is able to automatically require
 missing modules.  
 ```
 <script src="./bower_components/yjs/y.js"></script>
+```
+
+### CDN
+```
+<script src="https://cdn.jsdelivr.net/npm/yjs@12/src/y.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-array@10/dist/y-array.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-websockets-client@8/dist/y-websockets-client.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-memory@8/dist/y-memory.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-array@10/dist/y-array.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-map@10/dist/y-map.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/y-text@9/dist/y-text.js"></script>
+// ..
+// do the same for all modules you want to use
 ```
 
 ### Npm
